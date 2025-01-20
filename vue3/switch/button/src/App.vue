@@ -18,6 +18,7 @@ import CardMarquee from './components/CardMarquee.vue'
 import { ref, watch } from 'vue'
 const isCheck = ref(true)
 const value1 = ref(true)
+
 function turnOn() {
   isCheck.value = !isCheck.value
   console.log(isCheck.value)
